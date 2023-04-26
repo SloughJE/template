@@ -8,7 +8,7 @@
 	"dockerFile": "../Dockerfile",
 
 	// extensions
-	"extensions": ["ms-python.python", "ms-toosai.jupyter"]
+	"extensions": ["ms-python.python", "ms-toolsai.jupyter"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -20,7 +20,7 @@
 	// "postCreateCommand": "apt-get update && apt-get install -y curl",
 
 	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
-	// "mounts": [
+	// "mounts": [	
     //     {
     //         "source": "/var/run/docker.sock",
     //         "target": "/var/run/docker-host.sock",
