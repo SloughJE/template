@@ -9,6 +9,10 @@ An example of how to run a step in the pipeline:
 - load raw data
     - in integrated terminal run:
     - ```python run_pipelines.py --load_data```
+Example of next logical step:
+- create features for ML model
+    - ```python run_pipelines.py --make_features```
+Of course you have to write that function and the command to run it in `run_pipelines.py`
 
 Create new pipelines following this method, adding to run_pipelines.py
 
