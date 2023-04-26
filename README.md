@@ -4,7 +4,6 @@
 2) Create a 'raw' data file by using this notebook. Note the commented out line `# df.to_csv('../data/raw/test.csv',index=False)`. Uncomment this to write out the CSV in the `data/raw` folder.
 3) In `run_pipelines.py`, when you execute `python run_pipelines.py --load_data`, the the  `load_raw_data` is run which takes an input and output directory as arguments. These are currently set in `run_pipelines.py`. You can then modify this function as you like, this is just a very basic example.
 4) Add more steps to the pipeline such as: make_features, train_model, predict/score model...etc
-5) 
 
 An example of how to run a step in the pipeline: 
 - load raw data
