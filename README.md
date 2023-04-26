@@ -1,5 +1,12 @@
 # Running the Pipelines
 
+1) Explore the Jupyter notebook in `notebooks/ML_starter.ipynb`
+2) Create a 'raw' data file by using this notebook. Note the commented out line `# df.to_csv('../data/raw/test.csv',index=False)`. Uncomment this to write out the CSV in the `data/raw` folder.
+3) In `run_pipelines.py`, when you execute `python run_pipelines.py --load_data`, the the  `load_raw_data` is run which takes an input and output directory as arguments. These are currently set in `run_pipelines.py`. You can then modify this function as you like, this is just a very basic example.
+4) Add more steps to the pipeline such as: make_features, train_model, predict/score model...etc
+5) 
+
+An example of how to run a step in the pipeline: 
 - load raw data
     - in integrated terminal run:
     - ```python run_pipelines.py --load_data```
@@ -25,7 +32,7 @@ You can also open this project in codespace. On github, look at the green button
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+│                         `1.0-jqp-initial-data-exploration`. Usually the notebooks would be used to explore the data and possible different models.
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment
 │
